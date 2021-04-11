@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nadozia</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Dark Mode Switch -->
+    <div class="theme-switch-wrapper">
+        <span id="toggle-icon">
+            <span class="toggle-text">Light Mode</span>
+            <i class='fas fa-sun'></i>
+        </span>
+        <label class="theme-switch">
+            <input type="checkbox">
+            <div class="slider round"></div>
+        </label>
+
+    </div>
+    <!-- Navigation -->
+    <nav id="nav">
+        <a href="#home">HOME</a>        
+        <a href="#projects">PROJECTS</a>
+        <a href="#contact">CONTACT</a>
+    </nav>
+    <!-- Home Section -->
+    <section id="home">
+        <div class="title-group">
+            <h1>Welcome!</h1>
+            <h2>Hi all. I am a data analyst and web developer. Here is a profolio showing some of my projects and contact. Enjoy!</h2>
+        </div>
+    </section>
+    <!-- section project -->
+    <section id="projects">
+        <h1>MY PROJECTS</h1>
+        <div class="project-box" id="project-box">
+            <div class='project1'>
+                <a class='project-link' href='https://github.com/Nadozia/algo_backtester'>Stock strategy backtester</a>
+                <h3>A Python based strategy backtester. You just code the strategy and enter the symbols, then the backtester will help you to backtest, showing the gains/ win rate/ sharpe ratio of the strategy. And also it will output a html ployly graph.</h3>
+            </div>
+        </div>
+        <div class="project-box" id="project-box">
+            <div class='project1'>
+                <a class='project-link' href='https://nadozia.github.io/dice_simulator/'>Dice simulator</a>
+                <h3>While i was playing a boardgame, the probability of dice sum always border me a lot. For example, if i have 4 dices, and i want to roll a sum of 8, how many dice should i use to maximize the probability? This web site just use the formula of dice sum and plot the probability graph.</h3>
+            </div>
+        </div>
+        <div class="project-box" id="project-box">
+            <div class='project1'>
+                <a class='project-link' href='https://nadozia.github.io/calculator/'>Calculator</a>
+                <h3>A calculator exercise.</h3>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="social-icons">
+            <a href='https://github.com/Nadozia'><i class="fab fa-github"></i></a>
+            <a href='mailto:qpmz9713@gmail.com'><i class="fas fa-envelope"></i></a>
+        </div>
+    </section>
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
