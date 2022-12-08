@@ -191,3 +191,7 @@ input:checked + .slider::before {
   font-size: 30px;
   margin-right: 5px;
 }
+
+#CoverLetter {
+  text-align: left;
+}
